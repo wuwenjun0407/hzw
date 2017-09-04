@@ -1,0 +1,79 @@
+.list li{
+  width:100%;
+  height: 120/100rem;
+  overflow: hidden;
+  border:1/100rem solid #828282;
+  .pic{
+    float: left;
+    width: 30%;
+    height: 100/100rem;
+    margin: 10/100rem 0 0 15/100rem;
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+  .introduce{
+    float: right;
+    width: 60%;
+    height: 120/100rem;
+    padding: 20/100rem 10/100rem 0 0;
+    font-size: 14/100rem;
+    p{
+      margin: 0 0 3/100rem;
+      i{
+        color: #FF4500;
+      }
+      &.username{
+        span{
+          margin-right: 1/100rem;
+        }
+      }
+      &.money{
+        span{
+          margin-right: 2/100rem;
+        }
+      }
+      &.button{
+        display: inline-block;
+
+        button{
+          width: 80/100rem;
+          height: 30/100rem;
+          border-radius: 5/100rem;
+          text-align: center;
+          line-height: 30/100rem;
+          color: #fff;
+          margin-right: 20/100rem;
+          margin-top: .2rem;
+
+          &:nth-child(1){
+            background-color: firebrick;
+          }
+          &:nth-child(2){
+            background-color: #1874CD;
+          }
+        }
+      }
+      &.introduction{
+        display: inline-block;
+        width: 1.2rem;
+        height: 20/100rem;
+        text-align: right;
+        span{
+          width: 20/100rem;
+          height: 20/100rem;
+          color: orange;
+        }
+      }
+    }
+  }
+}
+.loading{
+  width: 100%;
+  height: 80/100rem;
+  line-height: 100/100rem;
+  text-align: center;
+  margin-bottom: 50/100rem;
+}
